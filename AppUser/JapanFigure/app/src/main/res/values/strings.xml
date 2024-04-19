@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JapanFigure</string>
+    <string name="home">Home</string>
+    <string name="san_pham_text">Sản Phẩm</string>
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gi_25000">Giá: 25000 đ</string>
+    <string name="th_m_v_o_gi_h_ng">Thêm vào giỏ hàng</string>
+    <string name="gio_hang_trong">Giỏ hàng trống</string>
+    <string name="tong_tien">Tổng tiền:</string>
+    <string name="mua_hang">Mua Hàng</string>
+    <string name="ten_san_pham">Tên sản phẩm:</string>
+    <string name="gia">Giá :</string>
+    <string name="dang_nhap">Đăng Nhập</string>
+    <string name="dangky">Đăng Ký</string>
+</resources>

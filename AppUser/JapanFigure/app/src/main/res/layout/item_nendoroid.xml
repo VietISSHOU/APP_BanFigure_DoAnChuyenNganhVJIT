@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <ImageView
+            android:layout_weight="3"
+            android:id="@+id/item_image"
+            android:src="@drawable/baseline_add_24"
+            android:layout_width="0dp"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/item_ten"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Tên sản phẩm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+<!--            <TextView-->
+<!--                android:id="@+id/item_idsp"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/item_gia"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Giá: 250000đ"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/item_xemthem"
+                    android:textSize="14sp"
+                    android:text="Xem thêm\u2192"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/item_gia"
+                    android:layout_alignBottom="@id/item_gia"
+                    android:gravity="bottom|end"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/item_mota"
+                    android:textSize="14sp"
+                    android:text="Mô tả: "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

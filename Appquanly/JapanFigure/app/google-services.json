@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "945002429465",
+    "project_id": "appfigure-1cc42",
+    "storage_bucket": "appfigure-1cc42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945002429465:android:f28cffe9d86a6ce43f7e88",
+        "android_client_info": {
+          "package_name": "com.appquanly.japanfigure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCBb09ph-ykGlRdzp80T8UrMuFIVInIeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

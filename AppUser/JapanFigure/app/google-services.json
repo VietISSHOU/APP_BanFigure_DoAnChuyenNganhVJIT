@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "945002429465",
+    "project_id": "appfigure-1cc42",
+    "storage_bucket": "appfigure-1cc42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945002429465:android:f28cffe9d86a6ce43f7e88",
+        "android_client_info": {
+          "package_name": "com.appquanly.japanfigure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945002429465-ept3612qjrbodm419vp96q46h8dbu1o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appquanly.japanfigure",
+            "certificate_hash": "4ec6685a488c27f5e050bacf4426f60f95a17b16"
+          }
+        },
+        {
+          "client_id": "945002429465-56hj4jbu7p5bcj8jsbi83mkd0svlpmsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCBb09ph-ykGlRdzp80T8UrMuFIVInIeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945002429465-56hj4jbu7p5bcj8jsbi83mkd0svlpmsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945002429465:android:b040aaa0578723ac3f7e88",
+        "android_client_info": {
+          "package_name": "com.example.japanfigure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945002429465-56hj4jbu7p5bcj8jsbi83mkd0svlpmsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCBb09ph-ykGlRdzp80T8UrMuFIVInIeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945002429465-56hj4jbu7p5bcj8jsbi83mkd0svlpmsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

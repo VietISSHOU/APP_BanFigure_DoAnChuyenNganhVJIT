@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="title">#D5718C</color>
+    <color name="body">#FFFFFFFF</color>
+    <color name="text">#43474b</color>
+    <color name="backchat">#81BAF3</color>
+    <color name="allapp">#AA7AFF</color>
+
+</resources>

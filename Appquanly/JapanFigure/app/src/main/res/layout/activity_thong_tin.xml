@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appquanly.japanfigure.Activity.ThongTinActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Thông Tin"></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txtthongtin"
+        android:text="Thông tin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/title"
+        />
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="5dp"
+       android:layout_marginEnd="5dp"
+       android:layout_marginVertical="5dp"
+       android:layout_marginHorizontal="5dp"
+       app:cardCornerRadius="20dp"
+       app:cardElevation="5dp"
+       android:layout_marginTop="5dp"
+       android:outlineAmbientShadowColor="@color/text"
+       app:layout_constraintTop_toBottomOf="@+id/txtthongtin"
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="100dp">
+           <com.google.android.material.imageview.ShapeableImageView
+               app:cardCornerRadius="20dp"
+               android:id="@+id/item_image"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/ntn"
+               android:layout_marginStart="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginTop="10dp"
+               >
+
+           </com.google.android.material.imageview.ShapeableImageView>
+
+           <TextView
+               android:id="@+id/item_tenloai"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginStart="150dp"
+               android:layout_marginTop="30dp"
+               android:text="Nguyễn Trung Nghĩa"
+               android:textColor="@color/title"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+       </RelativeLayout>
+
+   </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="5dp"
+        android:outlineAmbientShadowColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@+id/cardview"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.google.android.material.imageview.ShapeableImageView
+                app:cardCornerRadius="20dp"
+                android:id="@+id/item_image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lqv"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                >
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <TextView
+                android:id="@+id/item_tenloai1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="30dp"
+                android:text="Lê Quốc Việt"
+                android:textColor="@color/title"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="5dp"
+        android:outlineAmbientShadowColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@+id/cardview1"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.google.android.material.imageview.ShapeableImageView
+                app:cardCornerRadius="20dp"
+                android:id="@+id/item_image2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pht"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <TextView
+                android:id="@+id/item_tenloai2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="30dp"
+                android:text="Phạm Hồng Thắng"
+                android:textColor="@color/title"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
